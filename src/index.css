@@ -1,0 +1,32 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("http://fonts.cdnfonts.com/css/proxima-nova-2");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Sofia", sans-serif; */
+  font-family: "Proxima Nova", sans-serif;
+}
+
+:root {
+  --main_color: #ffbf00;
+  --black_color: #2b2a2a;
+  --white_color: #ffffff;
+  --hover_color: #e92a04d3;
+  --background_color: #fffbfbee;
+  --border_color: #e9dede;
+
+  --box_shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  --main_shadow: 0 0 10px rgba(246, 219, 15, 0.5);
+}

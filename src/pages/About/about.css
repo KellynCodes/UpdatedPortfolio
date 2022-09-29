@@ -1,0 +1,393 @@
+.about_container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.about_container .header_text {
+  width: 100%;
+  text-align: center;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_container .header_text h1 {
+  background-color: var(--black_color);
+  background-image: linear-gradient(
+    to left,
+    var(--black_color) 0%,
+    var(--hover_color),
+    var(--main_color) 100%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  height: auto;
+  width: auto;
+  border-bottom: 4px solid var(--main_color);
+}
+
+.about {
+  width: 85%;
+  height: 98%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 5px;
+  padding: 2rem;
+  background-color: var(--background_color);
+}
+
+/* ==============RESUME CODES/STYLES==================== */
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro");
+:root {
+  --mainTextColor: #000;
+  --secondaryTextColor: (51 51 51);
+  --mainBorderColor: rgb(255, 255, 255);
+  --mainLinkColor: #0da2b8;
+  --mainBgColor: rgb(249, 250, 251);
+}
+
+.about .resume {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: 0 0 3px var(--main_color);
+  border-radius: 8px;
+}
+
+* {
+  line-height: 1.5rem;
+  color: var(--mainTexColor);
+}
+
+p,
+span,
+li {
+  color: var(--secondaryTextColor);
+  font-size: 1em;
+}
+
+.resume a {
+  text-decoration: none;
+  color: var(--mainTextColor);
+  font-weight: 500;
+}
+
+.resume li {
+  line-height: 1.9em;
+}
+
+.resume #container_main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section_page {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.resume #wrapper_hero {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4em;
+  justify-content: center;
+}
+
+.resume #username {
+  font-size: 3em;
+  line-height: 1em;
+}
+
+.resume #bio,
+a {
+  font-weight: 300;
+}
+
+.resume #profile_pic {
+  background-color: white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.resume #email {
+  color: var(--mainTexColor);
+}
+
+.resume #socials_list {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 1em;
+  flex-wrap: wrap;
+}
+
+.resume #socials_list a {
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--secondaryTextColor);
+  transition: 800ms;
+}
+
+.resume #socials_list a:hover {
+  color: var(--main_color);
+}
+
+.resume #qualification_list {
+  list-style-type: none;
+}
+
+.resume #wrapper_techstack_items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  font-size: 0.9rem;
+}
+
+.resume .card_techstack {
+  width: fit-content;
+  border: 2px solid var(--main_color);
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+.card_work_history {
+  border-left: 1px solid var(--main_color);
+  padding-left: 2em;
+  margin: 3px 0;
+}
+
+.line_break {
+  background-color: var(--main_color);
+  height: 2px;
+}
+
+/* <=====================END OF RESUME CODES/STYLES========================> */
+
+.about .highlight {
+  width: 48%;
+  height: 98%;
+}
+
+.about .highlight .profile_image {
+  width: 100%;
+  height: 40%;
+  background-color: var(--main_color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.about_container .about .skills_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about_container .about .sub_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.about_container .about .skills_container h1 {
+  background-color: var(--black_color);
+  background-image: linear-gradient(
+    to left,
+    var(--black_color) 0%,
+    var(--hover_color),
+    var(--main_color) 100%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  height: auto;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+.sub_container .skills {
+  width: 15rem;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  background-image: linear-gradient(
+    to bottom,
+    var(--hover_color),
+    var(--white_color),
+    var(--main_color)
+  );
+  border-radius: 10px;
+}
+
+.skills .skill_img {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skills .skill_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: transparent;
+}
+
+.skills .skills_bar {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills .skills_bar .bar_container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills .skills_bar .bar_container .bared {
+  width: 80%;
+  height: 10px;
+  background-color: var(--white_color);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.skills .skills_bar .bar_container .bared .react_bar {
+  width: 70%;
+  height: 100%;
+  background-color: var(--black_color);
+}
+
+.skills .skills_bar .bar_container .bared .express_bar {
+  width: 70%;
+  height: 100%;
+  background-color: var(--black_color);
+}
+.skills .skills_bar .bar_container .bared .js_bar {
+  width: 75%;
+  height: 100%;
+  background-color: var(--black_color);
+}
+.skills .skills_bar .bar_container .bared .css_bar {
+  width: 90%;
+  height: 100%;
+  background-color: var(--black_color);
+}
+
+.skills .skills_bar .bar_container .bared .html_bar {
+  width: 90%;
+  height: 100%;
+  background-color: var(--black_color);
+}
+
+.skills .skills_bar .bar_container .bared .github_bar {
+  width: 60%;
+  height: 100%;
+  background-color: var(--black_color);
+}
+
+.skills .skills_bar .bar_container .bared .cmd_bar {
+  width: 50%;
+  height: 100%;
+  background-color: var(--black_color);
+}
+
+.skills .skills_bar .bar_container .bared .node_bar {
+  width: 70%;
+  height: 100%;
+  background-color: var(--black_color);
+}
+.skills .skills_bar .bar_container .bared .php_bar {
+  width: 80%;
+  height: 100%;
+  background-color: var(--black_color);
+}
+
+@media screen and (max-width: 1100px) {
+  .about_container .about {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    width: 100%;
+  }
+
+  .about .cv {
+    width: 100%;
+  }
+
+  .about .highlight {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about_container {
+    overflow: hidden;
+  }
+
+  .about {
+    padding: 0;
+    width: 100%;
+    margin: 2rem 0 0 0;
+  }
+  .resume #wrapper_hero h2 {
+    font-size: 2rem;
+  }
+}
