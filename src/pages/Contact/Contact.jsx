@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./contact.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -17,7 +17,7 @@ const Contact = () => {
       </div>
       <div className="contact">
         <div className="beautify_form" data-aos="flip-left">
-          <img src={FormSvg} alt="Form Image" />
+          <img src={FormSvg} alt="Form_Image" />
         </div>
 
         <form action="" data-aos="flip-right">
@@ -37,7 +37,7 @@ const Contact = () => {
           </div>
 
           <div className="message">
-            <textarea placeholder="Enter Your Message Here"></textarea>
+            <textarea placeholder="Enter Your Message Here" required></textarea>
             <label htmlFor="message">Enter Your Message Here</label>
           </div>
 

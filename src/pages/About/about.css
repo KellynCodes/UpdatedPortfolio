@@ -6,6 +6,7 @@
   justify-content: center;
   flex-direction: column;
   padding-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .about_container .header_text {
@@ -75,6 +76,7 @@
   padding: 1rem;
   box-shadow: 0 0 3px var(--main_color);
   border-radius: 8px;
+  margin-bottom: 2rem;
 }
 
 * {
@@ -256,6 +258,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  margin-bottom: 2rem;
   padding: 1rem;
   background-image: linear-gradient(
     to bottom,

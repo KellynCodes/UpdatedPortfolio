@@ -12,8 +12,9 @@ import {
   FaWhatsapp,
   FaDiscord,
   FaRegArrowAltCircleUp,
-  FaFileVideo,
   FaRegAngry,
+  FaAccessibleIcon,
+  FaIdBadge,
 } from "react-icons/fa";
 import { useState } from "react";
 
@@ -98,19 +99,21 @@ function Footer() {
         <div className="direct_message">
           <h4>Hire Me</h4>
           <ul>
-            <ul>
+            <ul className="hireMe">
               <li>
                 <a href="https://fiver.com/kellyncodes">
-                  Hire Me On Fiver <FaRegAngry style={{ fontSize: 30 }} />
+                  <FaRegAngry style={{ fontSize: 30 }} />
                 </a>
               </li>
               <li>
-                <a href="https://fiver.com/kellyncodes">
-                  Hire Me On freelancer.com
+                <a href="https://upwork.com/kellyncodes">
+                  <FaAccessibleIcon style={{ fontSize: 30 }} />
                 </a>
               </li>
               <li>
-                <a href="https://fiver.com/kellyncodes">Hire Me On Upwork</a>
+                <a href="https://freelancer.com/kellyncodes">
+                  <FaIdBadge style={{ fontSize: 30 }} />
+                </a>
               </li>
             </ul>
             <h4>Direct Message</h4>
