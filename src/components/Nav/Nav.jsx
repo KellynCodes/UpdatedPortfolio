@@ -7,15 +7,13 @@ function Nav() {
       <header className="nav_container">
         <div className="navbar">
           <div className="logo">
-            <a href="/">
-              <h1>K3llYnCodE</h1>
-            </a>
+            <h1>K3llYnCodE</h1>
           </div>
 
           <div className="navlinks">
             <ul className="links">
-              <li className="">
-                <a href="#">Home</a>
+              <li>
+                <a href="#home">Home</a>
               </li>
               <li>
                 <a href="#about">About</a>
@@ -29,7 +27,13 @@ function Nav() {
             </ul>
 
             <ul className="right_links">
-              <a href="">Hire Me</a>
+              <a
+                href="https://www.upwork.com/freelancers/~01edd830bade39ada0"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Hire Me
+              </a>
             </ul>
           </div>
         </div>

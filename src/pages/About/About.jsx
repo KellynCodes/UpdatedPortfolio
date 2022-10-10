@@ -11,6 +11,8 @@ import NodeExpress from "../../images/expressjs.png";
 import Bootstrap from "../../images/bootstrap.png";
 import Php from "../../images/php-mysql.png";
 
+import ProfileImg from "../../images/headerpicfb-removebg-preview.png";
+
 import "./about.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -28,7 +30,7 @@ const About = () => {
         <div className="resume">
           <div id="container_main">
             <div id="wrapper_hero" className="section-page">
-              <img id="profile_pic" src={Node} alt="profile-pics" />
+              <img id="profile_pic" src={ProfileImg} alt="profile-pics" />
 
               <div>
                 <h2 id="username">Kelechi Amos</h2>
@@ -39,22 +41,42 @@ const About = () => {
 
             <section class="section_page">
               <div id="socials_list">
-                <a href="https://github.com/prokelly" target="_blank">
+                <a
+                  href="https://github.com/prokelly"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Github
                 </a>
-                <a href="https:/twitter.com/kellyncode" target="_blank">
+                <a
+                  href="https:/twitter.com/kellyncode"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Twitter
                 </a>
-                <a href="https://facebook.com/kellyncodes" target="_blank">
+                <a
+                  href="https://facebook.com/kellyncodes"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Facebook
                 </a>
-                <a href="https://linkedin.com/@kellyncode" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/kellyncodes/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Linkedin
                 </a>
-                <a href="https://kellncodes.netlify.app" target="_blank">
+                <a
+                  href="https://kellncodes.netlify.app"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Website
                 </a>
-                <a href={Resume} download="" target="_blank">
+                <a href={Resume} download="" rel="noreferrer" target="_blank">
                   Dowload Resume
                 </a>
               </div>
@@ -63,13 +85,9 @@ const About = () => {
             <section className="section_page">
               <h2>Skills And Qualificaiton</h2>
               <ul id="qualification_list">
-                <li>Lorem ipsum dolor sit amet consectet elit. Id, numquam.</li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur elit. Id, numquam.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur elit. Id, numquam.
-                </li>
+                <li>Expert Frontend Developer</li>
+                <li>Professional instrumentalist</li>
+                <li>Accurate and High speed typing Skill.</li>
               </ul>
             </section>
 
@@ -97,51 +115,50 @@ const About = () => {
               <div className="line_break"></div>
 
               <div className="card_work_history">
-                <strong> DEVELOPER ADVOCATE | TECH</strong>
+                <strong>
+                  DEVELOPED AN ECOMMERCE WEBSITE FOR ENUGU TECH HUB
+                </strong>
                 <p>22/09/2022 - Present</p>
-                <p>
-                  Worked on making Agora's noticeable in the community and also
-                  how to use it.
-                </p>
+                <h5>Built with Php, JavaScript, Html5, Css3</h5>
 
                 <ul>
-                  <li>Doubled web SDK's Lorem ipsum dol</li>
-                  <li>Doubled web SDK's Lorem ipsum dol</li>
-                  <li>Doubled web SDK's Lorem ipsum dol</li>
+                  <li>An ecom website for orie oba market</li>
+                  <li>Increased income return for the state.</li>
+                  <li>Made purchase easy for the whole customers</li>
                 </ul>
               </div>
 
               <div className="line_break"></div>
 
               <div className="card_work_history">
-                <strong> DEVELOPER ADVOCATE | TECH</strong>
-                <p>22/09/2022 - Present</p>
-                <p>
-                  Worked on making Agora's noticeable in the community and also
-                  how to use it.
-                </p>
+                <strong>Created a Blogging site</strong>
+                <p>20/5/2022 - Present</p>
+                <h5>Built with NextJs, Css3, ExpressJs</h5>
 
                 <ul>
-                  <li>Doubled web SDK's Lorem ipsum dol</li>
-                  <li>Doubled web SDK's Lorem ipsum dol</li>
-                  <li>Doubled web SDK's Lorem ipsum dol</li>
+                  <li>Api Authentication with ExpressJs</li>
+                  <li>Authentication with Next-Auth and JWT</li>
+                  <li>Post, Like, Comment, and Share.</li>
                 </ul>
               </div>
 
               <div className="line_break"></div>
 
               <div className="card_work_history">
-                <strong> DEVELOPER ADVOCATE | TECH</strong>
+                <strong>Online Trading</strong>
                 <p>22/09/2022 - Present</p>
-                <p>
-                  Worked on making Agora's noticeable in the community and also
-                  how to use it.
-                </p>
+                <h5>
+                  Online Trading Platform | Php/Laravel, JavaScript, Bootstrap,
+                  Css3, Html5, Sccs,
+                </h5>
 
                 <ul>
-                  <li>Doubled web SDK's Lorem ipsum dol</li>
-                  <li>Doubled web SDK's Lorem ipsum dol</li>
-                  <li>Doubled web SDK's Lorem ipsum dol</li>
+                  <li>Authentication with laravel meadleware</li>
+                  <li>
+                    P2P trading, Bitcoin, Ethereum..., payment method, and many
+                    more...
+                  </li>
+                  <li>Referalls, Etc...</li>
                 </ul>
               </div>
             </div>
@@ -299,6 +316,22 @@ const About = () => {
               <div className="skill_img">
                 <img src={Php} alt="php" />
                 <h4>Mysql Database</h4>
+              </div>
+
+              <div className="skills_bar">
+                <div className="bar_container">
+                  <div className="bared">
+                    <div className="php_bar"></div>
+                  </div>
+                  <h4>80%</h4>
+                </div>
+              </div>
+            </div>
+
+            <div className="skills" data-aos="zoom-in">
+              <div className="skill_img">
+                <img src={Php} alt="php" />
+                <h4>MongoDB</h4>
               </div>
 
               <div className="skills_bar">

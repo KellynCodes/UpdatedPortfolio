@@ -3,7 +3,7 @@ import headerImg from "../../images/react.jpg";
 import "./home.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { FaDesktop, FaGithub, FaHammer, FaPen } from "react-icons/fa";
+import { FaDesktop, FaHammer, FaPen } from "react-icons/fa";
 
 function Home() {
   useEffect(() => {
@@ -68,7 +68,7 @@ function Home() {
       </div>
 
       <div data-aos="flip-right" className="home_right">
-        <img src={headerImg} alt="profile image" />
+        <img src={headerImg} alt="profile_image" />
       </div>
     </div>
   );
