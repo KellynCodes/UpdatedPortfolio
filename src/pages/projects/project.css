@@ -92,6 +92,7 @@
   font-size: 1rem;
   color: var(--hover_color);
   background-color: var(--white_color);
+  margin: 1rem 0;
 }
 
 .project .project_img img {
@@ -118,10 +119,10 @@
   font-size: 1rem;
   font-weight: 600;
   color: var(--white_color);
-  outline: 2px solid var(--main_color);
+  border: 2px solid var(--main_color);
   background-color: var(--main_color);
   transition: 500ms;
-  border: none;
+  outline: none;
 }
 
 .project .button a:hover {
@@ -154,7 +155,7 @@
   }
 
   .project_img h5 {
-    margin: 0.5rem 0;
+    margin: 1rem 0;
   }
 
   .projects .project {

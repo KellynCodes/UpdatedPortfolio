@@ -106,7 +106,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://upwork.com/kellyncodes">
+                <a href="https://upwork.com/freelancers">
                   <FaAccessibleIcon style={{ fontSize: 30 }} />
                 </a>
               </li>

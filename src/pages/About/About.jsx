@@ -173,30 +173,12 @@ const About = () => {
                 <img src={ReactImg} alt="React" />
                 <h4>React: JavaScript Framework</h4>
               </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="react_bar"></div>
-                  </div>
-                  <h4>70%</h4>
-                </div>
-              </div>
             </div>
 
             <div className="skills" data-aos="flip-left">
               <div className="skill_img">
                 <img src={NodeExpress} alt="Node Express" />
                 <h4>Node JS Library</h4>
-              </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="express_bar"></div>
-                  </div>
-                  <h4>70%</h4>
-                </div>
               </div>
             </div>
 
@@ -205,30 +187,12 @@ const About = () => {
                 <img src={JavaScript} alt="JavaScript" />
                 <h4>JavaScripT</h4>
               </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="js_bar"></div>
-                  </div>
-                  <h4>75%</h4>
-                </div>
-              </div>
             </div>
 
             <div className="skills" data-aos="fade-down-left">
               <div className="skill_img">
                 <img src={Css} alt="Css" />
                 <h4>Cascading Style Sheet</h4>
-              </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="css_bar"></div>
-                  </div>
-                  <h4>90%</h4>
-                </div>
               </div>
             </div>
 
@@ -237,30 +201,12 @@ const About = () => {
                 <img src={Html} alt="Html" />
                 <h4>Hyper Text Markup Language</h4>
               </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="html_bar"></div>
-                  </div>
-                  <h4>90%</h4>
-                </div>
-              </div>
             </div>
 
             <div className="skills" data-aos="flip-right">
               <div className="skill_img">
                 <img src={GithubImg} alt="Github" />
                 <h4>Version Control System</h4>
-              </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="github_bar"></div>
-                  </div>
-                  <h4>60%</h4>
-                </div>
               </div>
             </div>
 
@@ -269,30 +215,12 @@ const About = () => {
                 <img src={Cmd} alt="Command Prompt" />
                 <h4>Command Prompt</h4>
               </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="cmd_bar"></div>
-                  </div>
-                  <h4>50%</h4>
-                </div>
-              </div>
             </div>
 
             <div className="skills" data-aos="fade-left">
               <div className="skill_img">
                 <img src={Node} alt="Node Js" />
                 <h4>JavaScript Library For Backend</h4>
-              </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="node_bar"></div>
-                  </div>
-                  <h4>70%</h4>
-                </div>
               </div>
             </div>
 
@@ -301,30 +229,12 @@ const About = () => {
                 <img src={Php} alt="php" />
                 <h4>Php</h4>
               </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="php_bar"></div>
-                  </div>
-                  <h4>65%</h4>
-                </div>
-              </div>
             </div>
 
             <div className="skills" data-aos="zoom-in">
               <div className="skill_img">
                 <img src={Php} alt="php" />
                 <h4>Mysql Database</h4>
-              </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="php_bar"></div>
-                  </div>
-                  <h4>80%</h4>
-                </div>
               </div>
             </div>
 
@@ -333,30 +243,12 @@ const About = () => {
                 <img src={Php} alt="php" />
                 <h4>MongoDB</h4>
               </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="php_bar"></div>
-                  </div>
-                  <h4>80%</h4>
-                </div>
-              </div>
             </div>
 
             <div className="skills" data-aos="zoom-in">
               <div className="skill_img">
                 <img src={Bootstrap} alt="Bootstrap" />
                 <h4>BOOTSTRAP</h4>
-              </div>
-
-              <div className="skills_bar">
-                <div className="bar_container">
-                  <div className="bared">
-                    <div className="php_bar"></div>
-                  </div>
-                  <h4>80%</h4>
-                </div>
               </div>
             </div>
           </div>
